@@ -1,5 +1,4 @@
-jquery.verticalyzeNavy
-==============
+***jquery.verticalyzeNavy***
 
 What is this?
 ============
