@@ -3,7 +3,7 @@ jquery.verticalyzeNavy
 
 What is this?
 -------------
-`.verticalyzeNavy()` is a small and wery simple jQuery plugin create sticky vertical navigation for your long one page scrolling website or some peace of page. The users can navigate smoothly between your page sections by dot navygation. [view a demo][1] on [codepen.io][1], inspired by [this article][2]. From your side needed just markup with your section, the rest plugin will take care. 
+`.verticalyzeNavy()` it's a small and very simple jQuery plugin create sticky vertical navigation for your long one page scrolling website or some peace of page. The users can navigate smoothly between your page sections through the dot navigation, [view a demo][1] on [codepen.io][1], inspired by [this article][2]. From your side needed just markup with your section, the rest plugin will take care. 
 
 [1]: https://codepen.io/tsurule/pen/aGdBzb
 [2]: https://codyhouse.co/gem/vertical-fixed-navigation
