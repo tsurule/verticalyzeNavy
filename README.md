@@ -21,10 +21,10 @@ Add the following HTML structure:
 <!-- where your classes should be the same for each block in scroll area, for plugin init -->
 <!-- data-section-name - is up to you, if you want to prop some custom label -->
 ```
-And then initialise the plugin:
+And then initialise the plugin (it will wrap all of the blocks in one section and add nav list, see the [Vertical Page Scroll Navigation jQuery plugin demo][1]):
 
-	$('.verticalyze-navy').verticalyzeNavy(); 	// init plugin on sections by your class, it will wrap all of the blocks in one section and add nav list, see the [Vertical Page Scroll Navigation jQuery plugin demo][1]
-
+	$('.verticalyze-navy').verticalyzeNavy(); 	// init plugin on sections by your class
+		
 You can customise it with the following options:
 
 	$('.verticalyze-navy').verticalyzeNavy({
