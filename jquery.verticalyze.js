@@ -16,6 +16,7 @@
 			navWrapList = setting.customClass+'__nav',
 			navDots,
 			navDotsList = setting.customClass+'__nav_dot',
+			navDotsListActive = navDotsList+'_active',
             assignModify,
     		navSection = '<ul class="'+navWrapList+'">',
     		sectionsCout = [],
@@ -46,7 +47,7 @@
 		navDots = $('.'+navDotsList);
 
         assignModify = function(target) {
-            target.addClass(navDotsList+'_active').siblings().removeClass(navDotsList+'_active');
+            target.addClass(navDotsListActive).siblings().removeClass(navDotsListActive);
 		}
 
         navDots.each(function(index){
@@ -79,6 +80,9 @@
 
 			} else {
 				for(var i = sectionsCout.length - 1; i > -1; i--) {
+
+							console.log(sectionsCout.length);
+
 					if(sectionsCout[i].offset <= scrollPos) {
 
 						targetNavDot = $("[data-target='"+sectionsCout[i].name+"']");
