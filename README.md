@@ -25,7 +25,7 @@ And then initialise the plugin:
 
 	$('.verticalyze-navy').verticalyzeNavy(); // init plugin on sections by your class
 
-You can customise with the following options:
+You can customise it with the following options:
 
 	$('.verticalyze-navy').verticalyzeNavy({
 		animationSpeed: 1000,			// you can set your custom speed, by default it's 500
