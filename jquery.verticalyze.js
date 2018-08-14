@@ -7,7 +7,6 @@
 		navContentIndex: true
 	}
 
-
     $.fn.verticalyzeNavy = function(options) {
 
     	$.extend(setting, options);
@@ -43,7 +42,7 @@
 
 		this.wrapAll(mainWrap).last().after(navSection);
 
-    	navWrap = $(navWrapList),
+    	navWrap = $('.'+navWrapList),
 		navDots = $('.'+navDotsList);
 
         assignModify = function(target) {
@@ -74,24 +73,24 @@
 
 			var scrollPos = $(window).scrollTop();
 
-              if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-                    targetNavDot = $("[data-target='"+sectionsCout[sectionsCout.length - 1].name+"']");
-                    assignModify(targetNavDot);
+			if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+				targetNavDot = $("[data-target='"+sectionsCout[sectionsCout.length - 1].name+"']");
+				assignModify(targetNavDot);
 
-                } else {
-                    for(var i = sectionsCout.length - 1; i > -1; i--){
-                        if(sectionsCout[i].offset <= scrollPos) {
+			} else {
+				for(var i = sectionsCout.length - 1; i > -1; i--) {
+					if(sectionsCout[i].offset <= scrollPos) {
 
-                            targetNavDot = $("[data-target='"+sectionsCout[i].name+"']");
-                            assignModify(targetNavDot);
+						targetNavDot = $("[data-target='"+sectionsCout[i].name+"']");
+						assignModify(targetNavDot);
 
-                            return;
-                        }
-                    }
-                }
+						return;
+					}
+				}
+			}
 		}
 
-        $(window).scroll(function(){
+        $(window).scroll(function() {
         	if(navDotsScroll) {
         		return;
         	} else {
