@@ -23,7 +23,7 @@ Add the following HTML structure:
 ```
 And then initialise the plugin:
 
-	$('.verticalyze-navy').verticalyzeNavy(); // init plugin on sections by your class
+	$('.verticalyze-navy').verticalyzeNavy(); 	// init plugin on sections by your class
 
 You can customise it with the following options:
 
