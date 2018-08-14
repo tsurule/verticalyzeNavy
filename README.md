@@ -28,8 +28,8 @@ And then initialise the plugin:
 You can customise with the following options:
 
 	$('.verticalyze-navy').verticalyzeNavy({
-		animationSpeed: 1000,		// you can set your custom speed, by default it's 500
-		customClass: 'verticalyze-navy',  // you can specify custom class for wrappers and dots classes, it will create 'verticalyze-navy__wrapper' for whole stage, 'verticalyze-navy__nav' for list, 'verticalyze-navy__nav_dot' for each item in list and 'verticalyze-navy__nav_dot_active' for active item in list. All classes follow BEM methodology. 
-		navContent: false,  		// you can display on your list current section name what equal 'data-section-name' value, by default it's true
-		navContentIndex: false  	// if you need to display item number in list, by default it's true
+		animationSpeed: 1000,			// you can set your custom speed, by default it's 500
+		customClass: 'verticalyze-navy',	// you can specify custom class for wrappers and dots classes, it will create 'verticalyze-navy__wrapper' for whole stage, 'verticalyze-navy__nav' for list, 'verticalyze-navy__nav_dot' for each item in list and 'verticalyze-navy__nav_dot_active' for active item in list. All classes follow BEM methodology. 
+		navContent: false,  			// you can display on your list current section name what equal 'data-section-name' value, by default it's true
+		navContentIndex: false  		// if you need to display item number in list, by default it's true
 	});
