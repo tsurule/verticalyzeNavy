@@ -18,7 +18,7 @@ Add the following HTML structure:
 <section class="verticalyze-navy" data-section-name="main"></section>
 <section class="verticalyze-navy" data-section-name="info"></section>
 <section class="verticalyze-navy" data-section-name="foot"></section>
-<!-- where your classes should be the same, for plugin init -->
+<!-- where your classes should be the same for each block in scroll area, for plugin init -->
 <!-- data-section-name - is up to you, if you want to prop some custom label -->
 ```
 And then initialise the plugin:
