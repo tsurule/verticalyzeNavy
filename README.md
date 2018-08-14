@@ -23,7 +23,7 @@ Add the following HTML structure:
 ```
 And then initialise the plugin:
 
-	$('.verticalyze-navy').verticalyzeNavy(); 	// init plugin on sections by your class
+	$('.verticalyze-navy').verticalyzeNavy(); 	// init plugin on sections by your class, it will wrap all of the blocks in one section and add nav list, see the [Vertical Page Scroll Navigation jQuery plugin demo][1]
 
 You can customise it with the following options:
 
