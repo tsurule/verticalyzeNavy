@@ -38,4 +38,4 @@ You can customise it with the following options:
 		navContentIndex: false  		// if you need to display item number in list, by default it's true
 	});
 
-*** pay attention, that this is just an experiment, that plugin for now is not ideal and ise infinity loop, which is not fine as for me but I'll continue to fix it***
+***pay attention, that this is just an experiment, that plugin for now is not ideal and ise infinity loop, which is not fine as for me but I'll continue to fix it***
